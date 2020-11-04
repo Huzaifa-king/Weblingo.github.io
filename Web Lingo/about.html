@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Weblingo - About</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-seri f;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!--Menu started-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="pics/logo.png" class="img-fluid" width="50px" height="50px">
+        </a>
+        <a class="navbar-brand" href="#">Web Lingo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contcat Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        More
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">HTML</a>
+                        <a class="dropdown-item" href="#">CSS</a>
+                        <a class="dropdown-item" href="#">HTML5</a>
+                        <a class="dropdown-item" href="#">CSS3</a>
+                    </div>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="mx-2">
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#loginModal">Login</button>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#singupModal">Sing up</button>
+        </div>
+    </nav>
+    <!--Menu End-->
+
+    <!--Login Modal start-->
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email address"
+                                aria-describedby="emailHelp" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" required>Password</label>
+                            <input type="password" class="form-control" placeholder="Password"
+                                id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Login Modal End-->
+
+    <!--Singup Modal start-->
+
+
+    <div class="modal fade" id="singupModal" tabindex="-1" aria-labelledby="singupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="singupModalLabel">Sing up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body">
+                        <form>
+
+                            <div class="row">
+                                <div class="col">
+                                    <label for="inputEmail4">First Name</label>
+                                    <input type="text" class="form-control" placeholder="First name" required>
+                                </div>
+                                <div class="col">
+                                    <label for="inputEmail4">Last Name</label>
+                                    <input type="text" class="form-control" placeholder="Last name" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email"
+                                        required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4">Password</label>
+                                    <input type="password" class="form-control" id="inputPassword4"
+                                        placeholder="Password" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">Address</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Address"
+                                    required>
+                            </div>
+                            <div class="form-group col-md-5">
+                                <label for="inputState">Country</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Pakistan</option>
+                                    <option>India</option>
+                                    <option>Bangladesh</option>
+                                    <option>South Africa</option>
+                                    <option>United State</option>
+                                    <option>Saudi Arabia</option>
+                                    <option>England</option>
+                                    <option>Neuzland</option>
+                                    <option>China</option>
+                                    <option>Japan</option>
+                                    <option>Other...</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Check me out
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Sign up</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Singup Modal End-->
+
+    <!--  Introduction Start   -->
+    <div class="container marketing my-5">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+
+            <div class="col-lg-4">
+                <img src="pics/huzaifa.png" class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+
+
+                <h2 style="font-family: cooper black;">Muhammad Huzaifa</h2>
+                <p>Huzaifa his complete name is Muhammad Huzaifa Asim. He birth on 8-November2004 and he belong to
+                    Karachi Pakistan. In 2019 he create his first basic website "Manylinks".and Web Lingo is also maked
+                    by Huzaifa.</p>
+                <p><a class="btn btn-danger" href="huzaifa.html" role="button">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4">
+                <img src="pics/logo.png" class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+                <h2 style="font-family: cooper black;">Web Lingo</h2>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras
+                    mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                    condimentum nibh.</p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4">
+                <img src="pics/logo2.png" class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+                <h2 style="font-family: cooper black;">Manylinks</h2>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras
+                    mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                    condimentum nibh.</p>
+            </div><!-- /.col-lg-4 -->
+
+        </div><!-- /.row -->
+        <!-- Introduction End -->
+
+
+        <!-- About Languages Start -->
+        <hr class="featurette-divider">
+        <hr class="featurette-divider">
+
+        <div class="row featurette justify-content-center align-items-center ">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Hyper Text Markup Language. <span class="text-muted">You can learn HTML with our
+                        Website.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                    tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="pics/html.jpg"
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" focusable="false" role="img">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette justify-content-center align-items-center ">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Cascading Style Sheet. <span class="text-muted">You can learn CSS with Web Lingo.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                    tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="pics/css.jpg"
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" focusable="false" role="img">
+            </div>
+        </div>
+        <hr class="featurette-divider">
+
+        <div class="row featurette justify-content-center align-items-center ">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Hyper Text Markup Language 5. <span class="text-muted">You can learn HTML5 with Web Lingo
+                        .</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                    tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="pics/html5.jpg"
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" focusable="false" role="img">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+        <div class="row featurette justify-content-center align-items-center ">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Cascading Style Sheet 3. <span class="text-muted">You can learn CSS3 with Web Lingo.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                    tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="pics/css3.jpg"
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" focusable="false" role="img">
+            </div>
+        </div>
+        <hr class="featurette-divider">
+        <hr class="featurette-divider">
+        <!-- About Languages End -->
+
+    </div>
+
+
+
+    <!-- Color Picker Start -->
+
+    <div style="text-align: center;" class="container">
+        <h4 style="font-family: cooper black;">Color Picker</h4>
+        <input type="text" class="hex" placeholder="Color Code">
+        <input type="color" class="color">
+    </div>
+
+    <script>
+        let colorInput = document.querySelector('.color');
+        let hexInput = document.querySelector('.hex');
+
+        colorInput.addEventListener('input', () => {
+            let color = colorInput.value;
+            hexInput.value = color;
+            // document.body.style.backgroundColor = color
+        })
+    </script>
+
+    <!-- Color Picker End -->
+
+    <!-- Body Background Color Start -->
+
+    <div style="text-align: center;" class="container my-4">
+        <h4 style="font-family: cooper black;">Change Website Background Color</h4>
+        <input type="color" class="bgcolor">
+    </div>
+
+    <script>
+        let bgcolorInput = document.querySelector('.bgcolor');
+        bgcolorInput.addEventListener('input', () => {
+            let bgcolor = bgcolorInput.value;
+            document.body.style.backgroundColor = bgcolor
+        })
+    </script>
+    <!-- Body Background Color End -->
+
+
+
+    <!--Footer Start-->
+    <div class="bg-dark text-light">
+        <div class="container my-5 bg-dark text-light">
+            <footer class="blog-footer">
+                <p>You can jump another Website :
+                    <a href="file:///C:/Users/HAFIZ%20COMPUTER/Desktop/Huzaifa/Manylinks/index.html"> Manylinks.</a>
+                    <a href="https://www.google.com/"><img src="pics/chrome.ico" class="img-fluid" width="50px"
+                            height="50px"></a>
+                    <a href="https://www.facebook.com/"><img src="pics/facebook.png" class="img-fluid" width="60px"
+                            height="60px"></a>
+                    <a href="https://www.instagram.com/"><img src="pics/insta.png" class="img-fluid" width="60px"
+                            height="60px"></a>
+                    <a href="https://www.linkedin.com/"><img src="pics/linkedin.png" class="img-fluid" width="50px"
+                            height="50px"></a>
+                    <a href="https://www.youtube.com/"><img src="pics/youtube.png" class="img-fluid" width="48px"
+                            height="48px"></a>
+                    <a href="https://www.twitter.com/"><img src="pics/twitter.png" class="img-fluid" width="60px"
+                            height="60px"></a>
+                </p>
+                <p>
+                    <a href="#">Back to top</a>
+                </p>
+            </footer>
+        </div>
+    </div>
+    <!--Footer End-->
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+<!--https://source.unsplash.com/1400x400/?technology,code-->
